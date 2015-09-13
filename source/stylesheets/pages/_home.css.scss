@@ -1,12 +1,12 @@
 #banner {
   background-image: image-url("background.jpg");
-  color: white;
+  color: $white;
   padding: 150px 0;
   background-size: cover;
   height: 650px;
   h1 {
 	  font-size: 50px;
-	  color: white;
+	  color: $white;
 	}
 	p {
 	  font-size: 25px;
@@ -14,22 +14,11 @@
 	}
 }
 
-body {
-  font-family: 'Open Sans', sans-serif;
-  color: #141414;
-}
 .card{
   padding: 10px;
   font-weight: 300;
+  h2{
+    font-size: 20px;
+  }
 }
-.card h2{
-  font-size: 20px;
-}
-.padded {
-  padding-top: 8em;
-  padding-bottom: 8em;
-}
-.blue-bg {
-  background: $blue;
-  color: white;
-}
+
